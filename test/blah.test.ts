@@ -1,7 +1,7 @@
-import { sum } from '../src';
+import { binarySearch } from '../src';
 
 describe('blah', () => {
   it('works', () => {
-    expect(sum(1, 1)).toEqual(2);
+    expect(binarySearch([1,2,3,4,5,6], 2)).toEqual(1);
   });
 });
